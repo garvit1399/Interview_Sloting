@@ -102,7 +102,9 @@ def add():
                   sender="Garvit Gupta",
                   recipients=[email],
                   body=body_message)
+    print('hello')
     mail.send(msg)
+    print('hello1')
     return redirect('/')
 
 
